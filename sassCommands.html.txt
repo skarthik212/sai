@@ -1,3 +1,17 @@
+Git Commands
+git init - To initiate a GIt repo
+git remote add origin <git repo URL> - TO set the repo URL
+git remote set-url origin <git repo URL> - To change the repo URL
+git status - TO check if any modifications done in any of the files
+git pull origin <branchname> - to pull the latest code of the branch
+git add . - TO add all files to the commit
+git add <file> - TO add particular file to the commit
+git commit -a -m "<Ur Message Here" - TO commit all your changes
+git push origin <branch> - To push the latest code to the branch
+
+Note: Everytime before you pull / push / add / commit commands use git status command before that so that you will be able to check the latest changes of your repo
+
+Sass Commands
 sass scss/index.scss css/index.css - Save Only once without watching
 sass --watch scss/index.scss css/index.css - Without compression
 sass --watch scss/index.scss css/index.css --style compressed - With Compression
