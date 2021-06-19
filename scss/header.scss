@@ -1,0 +1,6 @@
+header {
+    width: setWidth20(100%);
+    color: $frontColor;
+    @include inlineStyleWithParamas(green);
+    @include inlineStyle;
+}

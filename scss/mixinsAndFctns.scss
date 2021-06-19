@@ -1,0 +1,23 @@
+$colorVar: #000;
+$frontColor: #fff;
+@mixin inlineStyle{
+    ul {
+        li {
+            width: 100%;
+            display: inline-block;  
+        }
+    }    
+}
+@mixin inlineStyleWithParamas($val){    
+    background: $val;
+    ul {
+        li {
+            background: $val;
+            width: 100%;
+            display: inline-block;  
+        }
+    }    
+}
+@function setWidth20($getWidth) {
+    @return $getWidth;
+}

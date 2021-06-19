@@ -1,0 +1,7 @@
+footer {
+    background: $colorVar;
+    color: $frontColor;
+    width: setWidth20(80%);
+    @include inlineStyleWithParamas(blue); 
+    @include inlineStyle;
+}
